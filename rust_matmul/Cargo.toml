@@ -1,0 +1,11 @@
+[package]
+name = "rust_matmul"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ndarray = "0.15" # { version = "0.15", features = ["rayon", "matrixmultiply-threading"] }
+# blas-src = { version = "0.8", features = ["intel-mkl"] }
+ndarray-rand = "0.14.0"
