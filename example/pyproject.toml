@@ -12,6 +12,7 @@ dependencies = [
     "line-profiler>=4.2.0",
     "numpy>=2.2.2",
     "pandas>=2.2.3",
+    "pip>=25.0.1",
     "polars>=1.22.0",
     "pynvim>=0.5.2",
     "ray[all]>=2.42.1",
